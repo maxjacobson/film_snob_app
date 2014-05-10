@@ -1,0 +1,39 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    after_do (0.3.1)
+    film_snob (0.3.6)
+      httparty (~> 0.13)
+    furoshiki (0.1.2)
+      plist
+      rubyzip (< 1.0.0)
+      warbler
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    jruby-jars (1.7.12)
+    jruby-rack (1.1.14)
+    json (1.8.1-java)
+    multi_xml (0.5.5)
+    nokogiri (1.6.2.rc3-java)
+    plist (3.1.0)
+    rake (10.3.1)
+    rubyzip (1.0.0.beta1)
+    shoes (4.0.0.pre1)
+      after_do (~> 0.3)
+      furoshiki (>= 0.1.2)
+      nokogiri
+      swt (~> 0.18)
+    swt (0.18)
+    warbler (1.4.2)
+      jruby-jars (>= 1.5.6, < 2.0)
+      jruby-rack (>= 1.0.0)
+      rake (>= 0.9.6)
+      rubyzip (>= 0.9, < 1.1)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  film_snob
+  shoes (~> 4.0.0.pre1)
