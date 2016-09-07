@@ -7,7 +7,7 @@ Shoes.app do
     if film.embeddable?
       alert(film.html)
     else
-      alert("Not embeddable")
+      alert("Not embeddable!!")
     end
   end
 end
